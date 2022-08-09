@@ -5,7 +5,7 @@ function onLoad() {
     var name = document.getElementById("myInput1").value
     var para = document.createElement("p");
     para.innerText = name;
-    para.style.float = "right"
+    para.style.textAlign = "right"
     para.style.color = "blue"
     para.style.height="1px"
     para.style.fontSize = "25px"
@@ -16,7 +16,7 @@ function onLoad() {
     
     var para2 = document.createElement("p")
     para2.innerHTML = name
-    para2.style.float="left"  
+    para2.style.textAlign="left"  
     para2.style.color = "red"
     para2.style.fontSize = "25px"
     para2.style.width = "auto"
@@ -39,8 +39,8 @@ function onLoad() {
     
     document.getElementById('myInput1').value = '';
     
-    para.style.clear = "right"
-    para2.style.clear = "left"
+    // para.style.clear = "right"
+    // para2.style.clear = "left"
   }
   
   function function2(){
@@ -49,7 +49,7 @@ function onLoad() {
     para.innerHTML = name;
     para.style.color = "red"
     para.style.height = "1px"
-    para.style.float = "left"
+    para.style.textAlign = "left"
     para.style.fontSize = "25px"
      para.style.width = "auto"
     para.style.borderRadius = "5px"
@@ -60,7 +60,7 @@ function onLoad() {
     para2.innerText = name;
     para2.style.color="blue"
     para2.style.height = "1px"
-    para2.style.float = "right"
+    para2.style.textAlign = "right"
     para2.style.fontSize = "25px"
      para2.style.width = "auto"
     para2.style.borderRadius = "5px"
